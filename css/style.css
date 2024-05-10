@@ -1,0 +1,66 @@
+.welcome{
+   background-image: url('../images/assets/asset\ 0.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: calc(100vh - 100px);
+}
+
+body{
+   height: 200vh;
+}
+
+.nav{
+   background-color: black;
+   height: 100vh;
+   width: 360px;
+   position: fixed;
+   left: -360px;
+}
+
+.open-btn{
+   position: absolute;
+   top: 50%;
+   right: -130px;
+   transform: translateY(-50%);
+   cursor: pointer;
+
+}
+.navs div{
+   cursor: pointer;
+}
+
+.singers h1{cursor: pointer;}
+
+.countdown{
+   background-image: url('../images/assets/asset\ 1.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 360px;
+   
+}
+
+.contact .container{
+   height: 70vh;
+}
+
+.social-media div{
+   width: 40px;
+   height: 40px;
+   border: 1px black solid;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 10px;
+   transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.social-media div:hover{
+   color: white;
+   background-color: rgb(204, 39, 39);
+   border:none;
+}
+
+
+
+
+
